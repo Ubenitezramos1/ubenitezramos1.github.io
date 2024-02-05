@@ -1,24 +1,32 @@
 
-.cs-link a{
-    color: #faebd7;
-    font-family:'open sans';
-    float: right;
+.head-links{
+    overflow: hidden;
+    background-color: #333;
+    margin: 0;
 }
-
-.cs-link a:hover{
-    color: #F4D4AA;
-    font-family:'open sans';
-}
-
-.linkedin a{
-    color: #faebd7;
-    font-family:'open sans';
+.head-links a{
     float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'open sans';
+    color: white;
 }
 
-.linkedin a:hover{
+.head-links a.contact{
+    float:right;
+}
+
+.head-links a:hover{
+    background: #336b6b;
     color: #F4D4AA;
-    font-family:'open sans';
+}
+
+.contact a{
+    display: flex;
+    justify-content: space-between;
+    float: right;
 }
 
 .title {
